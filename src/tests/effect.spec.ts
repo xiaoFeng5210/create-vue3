@@ -1,4 +1,5 @@
-import { reactive } from "../reactivity/reactive"
+import { effect } from "../effect";
+import { reactive } from "../reactive"
 describe('effect', () => {
     it.skip('happy path', () => {
         const user = reactive({
